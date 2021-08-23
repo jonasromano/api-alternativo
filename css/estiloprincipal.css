@@ -1,16 +1,19 @@
 body{
-   background: -webkit-linear-gradient(blue,red,yellow);
-
+   background: -webkit-linear-gradient(pink,green,yellow);
+   background-repeat: no-repeat ;
+   background-color:black ;
 }
-
 
 header{
    background-position: bottom;
    text-align: center;
-   font-size: 300%;
+   font-size: 400%;
    border-style: outset;
    border-radius: 5%;
-   background: radial-gradient(gray,brown);
+   background: -webkit-linear-gradient(orange,violet);
+   margin-left: 500px;
+   margin-right: 500px;
+   
 }
 
 a:link, a:visited {
@@ -20,7 +23,7 @@ a:link, a:visited {
    text-align: center;
    text-decoration: none;
    display: inline-block;
-   font-size: 250%;
+   font-size: 350%;
  }
  
  a:hover, a:active {
@@ -32,4 +35,10 @@ a:link, a:visited {
     text-align: center;
     border-style: inset;
     background: -webkit-linear-gradient(gray,white);
+    margin-right: 200px;
+    margin-left: 200px;
+ }
+
+ p1{
+
  }
