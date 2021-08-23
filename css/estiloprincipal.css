@@ -1,7 +1,35 @@
 body{
-   background-color: -webkit-linear-gradient(blue, red);
+   background: -webkit-linear-gradient(blue,red,yellow);
+
 }
 
-h1{
-background-position: center;
+
+header{
+   background-position: bottom;
+   text-align: center;
+   font-size: 300%;
+   border-style: outset;
+   border-radius: 5%;
+   background: radial-gradient(gray,brown);
 }
+
+a:link, a:visited {
+   background-color: rgb(0, 255, 76);
+   color: black;
+   padding: 14px 25px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 250%;
+ }
+ 
+ a:hover, a:active {
+   background-color: turquoise;
+ }
+
+ nav{
+    background-position: bottom;
+    text-align: center;
+    border-style: inset;
+    background: -webkit-linear-gradient(gray,white);
+ }
