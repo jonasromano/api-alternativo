@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Foto Murale</title>
+        <link href="css/estiloprincipal.css" rel="stylesheet">
+    </head>
+    <body>
+        <style>
+            form{
+                border-style: outset;
+                background: -webkit-linear-gradient(gray,lightblue);
+                background-position: center;
+                text-align: center;
+                font-size: 150%;
+            }
+        </style>
+        <h1>Bienvenido a PICKfolio</h1>
+        <p>Aqui podras subir tus fotos, crear tu propio portafolio y venderlo al mundo entero!<br>
+        Comienza con registrar tus datos y crear tu propio perfil!!</p>
+        <div>
+            <form action="perfil.html" method="POST">
+                <label for="Nombre">Nombre</label>
+                <input type="text" id="Nombre" name="Nombre"><br><br>
+                <label for="Apellido">Apellido</label>
+                <input type="text" id="Apellido" name="Apellido"><br><br>
+                <label for="Correo electronico">Correo</label>
+                <input type="text" id="Correo" name="Correo"><br><br>
+                <label for="Sexo">Seleccione su sexo</label>
+                <select name="Sexo" id="Sexo">
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+                <option value="Sin definir">Sin definir</option>
+            </select><br><br>
+            <button id="Enviar" onclick="">Enviar</button>
+            </form>
+        </div>
+    </body>
+</html>

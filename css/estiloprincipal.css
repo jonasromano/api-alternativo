@@ -23,7 +23,8 @@ a:link, a:visited {
    text-align: center;
    text-decoration: none;
    display: inline-block;
-   font-size: 350%;
+   font-size: 150%;
+   word-spacing: 23px;
  }
  
  a:hover, a:active {
@@ -37,8 +38,17 @@ a:link, a:visited {
     background: -webkit-linear-gradient(gray,white);
     margin-right: 200px;
     margin-left: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: auto;
  }
 
- p1{
-
- }
+p{
+   background-position: bottom;
+   border-style: outset;
+   font-size: 200%;
+   background-color: lightblue;
+   text-align: center;
+   margin-left: 100px;
+   margin-right: 100px;
+}
